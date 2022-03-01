@@ -53,7 +53,7 @@ const LoginComps = (props) => {
 
                     {/* <!-- form section begins  --> */}
                     <div className="mt-10">
-                      <form action="#">
+                      <form onSubmit={handleLogin} action="#" method="POST">
                         <div className="mb-4">
                           <div className="relative login-input-group">
                             <span className="absolute top-1/2 transform -translate-y-[48%] px-5 text-lg text-lemon">
@@ -61,9 +61,10 @@ const LoginComps = (props) => {
                             </span>
                             <input
                               name="email"
+                              required
                               value={loginInfo?.email}
                               onChange={changeHandler}
-                              type="text"
+                              type="email"
                               placeholder="Email"
                               className="pl-12 py-3 w-full border-gray-200 focus:border-white rounded-md  focus:outline-[0px]  focus:ring-2 focus:ring-lemon placeholder:text-gray-400"
                             />
@@ -76,6 +77,7 @@ const LoginComps = (props) => {
                             </span>
                             <input
                               name="password"
+                              required
                               value={loginInfo?.password}
                               onChange={changeHandler}
                               type="password"
@@ -90,7 +92,7 @@ const LoginComps = (props) => {
                             type="submit"
                             className="bg-lemon w-full  py-2 text-white font-semibold cursor-pointer rounded-md"
                             value="Login"
-                            onClick={handleLogin}
+                            // onClick={handleLogin}
                           />
                           {props.name}
                         </div>
