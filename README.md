@@ -1,6 +1,6 @@
 # Management App
 
-Please checkout the output live: https://stack.overflooow.com
+Please checkout the application live at: https://stack.overflooow.com
 
 # Installation
 
