@@ -2,18 +2,18 @@
 
 # Installation
 
-## Front-End
+# Front-End
 
 Go to front-end directory and run
-# `npm install`
+## `npm install`
 then
-# `npm start`
+## `npm start`
 
-## Back-End
+# Back-End
 
 Go to Back-end directory and run
-# `npm install`
+## `npm install`
 then
-# `npm start`
+## `npm start`
 
 Setup DB for mysql, go to src/database.js file and setup DB.
