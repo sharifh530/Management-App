@@ -1,0 +1,1 @@
+imageUpload,firstName, lastName, address, email, phoneNumber, clubMember(dropdown-yes/no)
