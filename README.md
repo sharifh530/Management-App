@@ -1,4 +1,4 @@
-# Management-App
+# Management App
 
 # Installation
 
