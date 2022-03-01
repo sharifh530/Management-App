@@ -2,15 +2,17 @@
 
 # Installation
 
-#Front-End
+## Front-End
 
 Go to front-end directory and run
-### `npm install`
+# `npm install`
 then
 # `npm start`
 
+## Back-End
+
 Go to Back-end directory and run
-### `npm install`
+# `npm install`
 then
 # `npm start`
 
