@@ -21,3 +21,4 @@ then
 ### `npm start`
 
 Setup DB for mysql, go to src/database.js file and setup DB.
+Then, make a database 'FT-task' and run the query from DB.sql file
